@@ -2,7 +2,7 @@
 
 ---
 
-## Ejercicios
+## Punto 1
 
 ### Funciones
 
@@ -201,4 +201,86 @@
 > [!NOTE]
 > Como la variable _x_ es un entero, se aplica la función piso y toma el valor _1_, por lo que en el operador ternario, la variable _respuesta_ toma el valor de _"A"_, sin embargo, no hay ninguna impresión por consola entonces no arroja ningún dato.
 
+#### Pregunta 7 
 
+> Escriba 10 palabras reservadas
+
+> [!NOTE]
+> 1. public
+> 2. static
+> 3. void
+> 4. int
+> 5. abstract
+> 6. for
+> 7. while
+> 8. long
+> 9. float
+> 10. bool
+
+---
+
+## Punto 4
+
+> Realizar 20 firmas diferentes de funciones con sus respectivas invocaciones, se debe evidenciar diferentes variaciones de funciones, con parametros, sin parametros, con retorno, sin retorno, usar diferentes tipos de datos como clases, cadenas, matrices, etc,.
+
+
+1. ```cs
+   //Firma
+   public void empezar();
+   //Invocacion
+   empezar();
+   ```
+2. ```cs
+   //Firma
+   public static int suma(int a, int b);
+   //Invocacion
+   int sum = suma(1, 6);
+   ```
+3. ```cs
+   //Firma
+   private bool palindromo(string frase);
+   //Invocacion
+   bool pal = palindromo("Hannah");
+   ```
+4. ```cs
+   //Firma
+   private string numToLetra(int n);
+   //Invocacion
+   Console.WriteLine(numToLetra(3));
+   ```
+5. ```cs
+   //Firma
+   public static void reiniciar(bool VoF);
+   //Invocacion
+   reiniciar(true);
+   ```
+6. ```cs
+   //Firma
+   public float dividir(float numerador, float divisor);
+   //Invocacion
+   float resultado = dividir(4.8, 2.4);
+   ```
+7. ```cs
+   //Firma
+   private void imprimirMatriz(int[,] matriz);
+   //Invocacion
+   imprimirMatriz({{1 ,2}, {3, 4}});
+   ```
+8. ```cs
+   //Firma
+   public static string concatenar(string p1, string p2, string p3);
+   //Invocacion
+   string frase = concatenar("Buenos", "dias", "amigazo");
+   ```
+9. ```cs
+   //Firma
+   public int min(int[,] lista);
+   //Invocacion
+   int menor = min([1, 2, 5, -3]);
+   ```
+10. ```cs
+    //Firma
+    private char primeraLetra(string palabra);
+    //Invocacion
+    string letra = primeraLetra("Excelencia");
+    ```
