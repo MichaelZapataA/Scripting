@@ -217,6 +217,14 @@
 > 9. float
 > 10. bool
 
+
+---
+
+## Punto 3
+
+![image](https://github.com/user-attachments/assets/bff5dfae-061f-45ad-bfcd-a7a4ad3e3ec3)
+
+
 ---
 
 ## Punto 4
@@ -283,4 +291,46 @@
     private char primeraLetra(string palabra);
     //Invocacion
     string letra = primeraLetra("Excelencia");
+    ```
+11. ```cs
+    //Firma
+    public static string mulPalabra(string palabra, int n);
+    //Invocacion
+    string palabraMult = mulPalabra("Hola", 7);
+    ```
+12. ```cs
+    //Firma
+    private int[,] crearMatriz(int[] a, int[] b, int[] c);
+    //Invocacion
+    int[,] matriz = crearMatriz([1,2,3],[4,5,6],[7,8,9]);
+    ```
+13. ```cs
+    //Firma
+    public static void llamarLista(string[] nombres);
+    //Invocacion
+    llamarLista(["Carlos", "Mauricio", "Vanessa"]);
+    ```
+14. ```cs
+    //Firma
+    private bool esPar(int n);
+    //Invocacion
+    if (esPar(2)){};
+    ```
+15. ```cs
+    //Firma
+    public float convertirAint(string numero);
+    //Invocacion
+    float num = convertirAint("7.2");
+    ```
+16. ```cs
+    //Firma
+    private static float calcularAreaRectangulo(float a, float b);
+    //Invocacion
+    float area = calcularAreaRectangulo(4.3, 7.9);
+    ```
+17. ```cs
+    //Firma
+    private void ;
+    //Invocacion
+    int[,] matriz = crearMatriz([1,2,3],[4,5,6],[7,8,9]);
     ```
