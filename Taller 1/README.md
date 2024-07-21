@@ -352,3 +352,10 @@
     //Invocacion
     float hipotenusa = pitagoras(3.5, 4.2);
     ```
+
+---
+
+## Bibliografía
+
+- https://www.stationx.net/unix-commands-cheat-sheet/
+- https://www.hostinger.co/tutoriales/comando-grep-linux
