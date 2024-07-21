@@ -342,7 +342,13 @@
     ```
 19. ```cs
     //Firma
-    public static string[] ordenarLista(string[] palabras, bool orden);
+    private int potencia(int n, int exp);
     //Invocacion
-    string[] listaOrdenada = ordenarLista(["Camion", "Camisa", "Pato"], false);
+    int resultado = potencia(3, 2);
+    ```
+20. ```cs
+    //Firma
+    public float pitagoras(float cateto1, float cateto2);
+    //Invocacion
+    float hipotenusa = pitagoras(3.5, 4.2);
     ```
