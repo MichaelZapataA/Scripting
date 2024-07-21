@@ -330,7 +330,19 @@
     ```
 17. ```cs
     //Firma
-    private void ;
+    public string seleccionFruta(string[] frutas);
     //Invocacion
-    int[,] matriz = crearMatriz([1,2,3],[4,5,6],[7,8,9]);
+    string fruta = seleccionFruta(["Pera", "Manzana", "Fresa", "Uva"]);
+    ```
+18. ```cs
+    //Firma
+    public static string[] ordenarLista(string[] palabras, bool orden);
+    //Invocacion
+    string[] listaOrdenada = ordenarLista(["Camion", "Camisa", "Pato"], false);
+    ```
+19. ```cs
+    //Firma
+    public static string[] ordenarLista(string[] palabras, bool orden);
+    //Invocacion
+    string[] listaOrdenada = ordenarLista(["Camion", "Camisa", "Pato"], false);
     ```
