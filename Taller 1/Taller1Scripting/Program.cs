@@ -4,9 +4,14 @@
     {
         static void Main(string[] args)
         {
+            int x = 5 / 3;
 
-            Console.WriteLine(funcion18());
+            string respuesta = x > 0 ? "A" : "B";
 
+            Console.WriteLine(respuesta);
+            Console.WriteLine(x);
+
+            
         }
 
         public static void imprimirMatriz(int[,] matriz)
@@ -125,11 +130,19 @@
                     suma += aux;
                 }
                 num = Convert.ToString(suma);
+                Console.WriteLine(suma);
                 suma = 0;
             }
 
             return "El resultado es: " + num;
         }
+
+        //public static void teorica4()
+        //{
+        //    int c;
+        //    c = ++c;
+        //    Console.WriteLine(c);
+        //}
 
         
     }

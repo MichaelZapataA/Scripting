@@ -12,3 +12,4 @@ C:\Users\celes\OneDrive\Documentos\GitHub\Scripting\Taller 1\Taller1Scripting\ob
 C:\Users\celes\OneDrive\Documentos\GitHub\Scripting\Taller 1\Taller1Scripting\obj\Debug\net8.0\Taller1Scripting.pdb
 C:\Users\celes\OneDrive\Documentos\GitHub\Scripting\Taller 1\Taller1Scripting\obj\Debug\net8.0\Taller1Scripting.genruntimeconfig.cache
 C:\Users\celes\OneDrive\Documentos\GitHub\Scripting\Taller 1\Taller1Scripting\obj\Debug\net8.0\ref\Taller1Scripting.dll
+C:\Users\celes\OneDrive\Documentos\GitHub\Scripting\Taller 1\Taller1Scripting\obj\Debug\net8.0\Taller1Scripting.sourcelink.json
