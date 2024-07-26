@@ -359,3 +359,5 @@
 
 - https://www.stationx.net/unix-commands-cheat-sheet/
 - https://www.hostinger.co/tutoriales/comando-grep-linux
+- https://escarbandocodigo.wordpress.com/2011/07/02/truco-capitalizar-una-frase-en-c-dejar-la-primer-letra-en-mayuscula/
+  
